@@ -15,7 +15,7 @@ Access to GitHub Container Registry (GHCR) for pushing images.
 
 - Local Testing:
 Clone the repository:
-git clone https://github.com/vank1chaa/vmware-sre-monitor.git
+git clone https://github.com/vank1chaa/vmware-sre-monitor.git;
 cd vmware-sre-monitor
 
 Build the Docker image:
