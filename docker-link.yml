@@ -1,0 +1,13 @@
+name: Dummy Package Linker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dummy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Print link
+        run: echo "This workflow exists to link GHCR image to this repo."
